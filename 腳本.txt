@@ -1,0 +1,11 @@
+請解釋此code的功能
+針對玻璃和紙張邊緣檢測的功能，請將"圖片轉正", "對比增強"功能模組化來優化code # @staticmethod 是 Python 的一個裝飾器(decorator)，用於定義靜態方法
+
+針對玻璃和紙張邊緣檢測的功能，請使用@staticmethod 靜態方式，將"圖片轉正", "對比增強"功能模組化
+
+'''在我們的案例中使用 @staticmethod 的原因：
+圖像處理功能是獨立的，不需要存儲狀態
+這些方法可以被其他類直接使用，不需要創建 ImageProcessor 實例
+代碼更清晰，表明這些方法是純函數，不依賴於類的狀態'''
+
+請問在此code，PLC_SCAN功能裡，PRED_OUTPUT_L 及 PRED_OUTPUT_R有機會同時數值為1嗎?
